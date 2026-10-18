@@ -8,7 +8,7 @@ import (
 
 	"github.com/dghubble/gologin/v2"
 	oauth2Login "github.com/dghubble/gologin/v2/oauth2"
-	"github.com/google/go-github/v89/github"
+	"github.com/google/go-github/v93/github"
 	"golang.org/x/oauth2"
 )
 

@@ -4,7 +4,7 @@ Notable changes between releases.
 
 ## Latest
 
-* Upgrade `github.com/google/go-github` from v64 to v89
+* Upgrade `github.com/google/go-github` from v64 to v93
 
 ## v2.5.0
 
