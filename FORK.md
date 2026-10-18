@@ -8,6 +8,8 @@ we drop ours and sync with upstream again.
 
 The module path is unchanged (`github.com/dghubble/gologin/v2`).
 
+To sync the fork with upstream, follow [`AGENTS.md`](AGENTS.md).
+
 ## Changes compared to upstream
 
 All changes live on the branch `andygrunwald/upgrade-go-github-v93`, which is the
@@ -34,6 +36,6 @@ to stay close to upstream.
 
 ## Removing the fork changes
 
-Once upstream ships go-github v93 or newer, `main` alone is enough: fast-forward
-it to `upstream/main`, make it the default branch, switch consumers to it and
-delete the fork branch.
+Once upstream ships go-github v93 or newer, the upgrade commit is dropped during
+the next sync (see [`AGENTS.md`](AGENTS.md)). The fork branch then carries only
+the fork documentation.
